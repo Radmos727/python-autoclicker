@@ -16,7 +16,7 @@ class autoclickerYippieeee:
         self.master.resizable(False, False)
 
         
-        icon_path = "C:\\Users\\User\Desktop\\retarded-projects\\py-autoclicker\\michaelcera.ico"
+        icon_path = "./michaelcera.ico"
         self.master.iconbitmap(icon_path)
 
         self.click_interval_label = ttk.Label(master, text="Clicks per Second:")
