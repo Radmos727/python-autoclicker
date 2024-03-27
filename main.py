@@ -15,7 +15,8 @@ class autoclickerYippieeee:
 
         self.master.resizable(False, False)
 
-        icon_path = ".\\michaelcera.ico"
+        icon_path = ".\\ico\\michaelcera.ico"
+
         self.master.iconbitmap(icon_path)
 
         self.click_interval_label = ttk.Label(
